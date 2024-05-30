@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+<script src="app.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="header">
+    <a href="file:///D:/FPT/JavaScript/Asm/index.html">
+      <img src="Img/Logo.jpg" alt="Cinque Terre" width="90" height="90">
+    </a>
+    <div id="menu">
+        <div class="item">
+          <a href="https://mtpentertainment.com/artist/">Artist</a>
+        </div>
+        <div class="item">
+          <a href="https://mtpentertainment.com/gallery/">Gallery</a> 
+        </div>
+        <div class="item">
+          <a href="https://mtpentertainment.com/notice/">News</a>
+        </div>
+        <div class="item">
+          <a href="https://mtpentertainment.com/contact/">Booking</a>
+        </div>
+    </div>
+    <div id="actions">
+        <div class="item">
+            <img src="img/user.png" alt="">
+        </div>
+        <div class="item">
+            <img src="img/cart.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+    <a href="https://www.youtube.com/watch?v=Llw9Q6akRo4">
+      <img src="Img/Lạc trôi.jpg" style="width: 100%">
+    </a>
+  </div>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+    <a href="https://www.youtube.com/watch?v=32sYGCOYJUM">
+      <img src="Img/Chạy ngay đi.jpg" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+    <a href="https://www.youtube.com/watch?v=LCyo565N_5w">
+      <img src="Img/Buông đôi tay nhau ra.jpg" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+    <a href="https://www.youtube.com/watch?v=Llw9Q6akRo4">
+      <img src="Img/Nơi này có anh.jpg" style="width: 100%">
+    </a>
+  </div>
+</div>
+   <a class="prev" onclick="plusSlides(-1)">❮</a>
+   <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<div class="thoigian">
+  <h1>Giờ trái đất:</h1>
+  <h1 id="clock"></h1>
+</div>
+
+<div class="form-container">
+  <h3>Đăng nhập / Đăng ký</h3>
+  <form id="login-form">
+      <input type="text" placeholder="Tên đăng nhập" name="username" required>
+      <input type="password" placeholder="Mật khẩu" name="password" required>
+      <button type="submit">Đăng nhập</button>
+      <button type="button" class="switch-btn" onclick="switchForm()">Đăng ký</button>
+  </form>
+  <form id="register-form" style="display:none;">
+      <input type="text" placeholder="Tên đăng nhập" name="reg-username" required>
+      <input type="password" placeholder="Mật khẩu" name="reg-password" required>
+      <button type="submit">Đăng ký</button>
+      <button type="button" class="switch-btn" onclick="switchForm()">Đăng nhập</button>
+  </form>
+</div>
+
+
+</div>
+</div>
+
+<div id="banner">
+  <div class="row">
+  <a href="https://mtpentertainment.com/video/sky-tour-2019-official-trailer/"> <h2>SKY TOUR 2019 | OFFICIAL TRAILER</h2> </a>
+<div class="stars">
+    <a href="https://mtpentertainment.com/video/sky-tour-2019-official-trailer/">
+      <img src="Img/skytour.jpg" alt="height">
+    </a>
+</div>
+  </div>
+
+<div class="row1">
+<div class="item">
+    <a href="https://mtpentertainment.com/tin-canh-bao-ve-viec-mao-danh-cong-ty-m-tp-entertainment-de-lua-dao-tuyen-dung/">
+    <img src="Img/Ảnh chụp màn hình 2023-10-24 164357.png" width="100px">
+    </a>
+    <a href="https://mtpentertainment.com/tin-canh-bao-ve-viec-mao-danh-cong-ty-m-tp-entertainment-de-lua-dao-tuyen-dung/">
+    <h3>TIN CẢNH BÁO VỀ VIỆC MẠO DANH CÔNG TY M-TP ENTERTAINMENT ĐỂ LỪA ĐẢO TUYỂN DỤNG</h3>
+    <p>Thời gian gần đây, phía Công ty chúng tôi nhận được rất nhiều trường hợp tố giác các đối tượng mạo danh Công ty M-TP Entertainment để lừa đảo tuyển dụng và chiếm đoạt tài sản của ứng viên với những chiêu thức vô cùng tinh vi và bài bản...</p>
+    </a>
+</div>
+<div class="item">
+    <a href="https://mtpentertainment.com/khong-co-mv-nhung-making-my-way-cua-son-tung-m-tp-da-hoan-toan-chinh-phuc-hang-trieu-trai-tim-yeu-nhac-tren-toan-the-gioi/">
+      <img src="Img/Making My Way.jpg" width="100px">
+    </a> 
+    <a href="https://mtpentertainment.com/khong-co-mv-nhung-making-my-way-cua-son-tung-m-tp-da-hoan-toan-chinh-phuc-hang-trieu-trai-tim-yeu-nhac-tren-toan-the-gioi/">
+    <h3>KHÔNG CÓ MV, NHƯNG “MAKING MY WAY” CỦA SƠN TÙNG M-TP ĐÃ HOÀN TOÀN CHINH PHỤC HÀNG TRIỆU TRÁI TIM YÊU NHẠC TRÊN TOÀN THẾ GIỚI</h3>
+    <p>Nửa đêm ngày 5/5, nghệ sĩ Sơn Tùng M-TP đã cho ra mắt bản audio ca khúc Making My Way, đánh dấu sự trở lại đầy ấn tượng và thuyết phục sau hơn 1 năm im ắng. Making My Way với thông điệp tích cực về việc hướng về tương lai...</p>
+    </a>
+  </div>
+<div class="item">
+    <a href="https://mtpentertainment.com/nghe-si-son-tung-m-tp-chinh-thuc-cho-trinh-lang-phien-ban-audio-cua-making-my-way/">
+        <img src="Img/Audio Making My Way.jpg" width="100px">
+    </a> 
+    <a href="https://mtpentertainment.com/nghe-si-son-tung-m-tp-chinh-thuc-cho-trinh-lang-phien-ban-audio-cua-making-my-way/">
+      <h3>NGHỆ SĨ SƠN TÙNG M-TP CHÍNH THỨC CHO TRÌNH LÀNG PHIÊN BẢN AUDIO CỦA MAKING MY WAY</h3>
+      <p>0h00 ngày 5/5/2023, nghệ sĩ Sơn Tùng M-TP đã chính thức phát hành bản audio ca khúc Making My Way trên tất cả các nền tảng: Spotify, Apple Music, YouTube, soundcloud...</p>
+    </a>
+  </div>
+<div class="item">
+    <a href="https://mtpentertainment.com/giai-thuong-am-nhac-uy-tin-the-gioi-goi-son-tung-la-hoang-tu-nhac-pop-danh-loi-khen-den-hay-trao-cho-anh/">
+          <img src="Img/Hoàng tử Vpop.webp" width="100px">
+    </a> 
+    <a href="https://mtpentertainment.com/giai-thuong-am-nhac-uy-tin-the-gioi-goi-son-tung-la-hoang-tu-nhac-pop-danh-loi-khen-den-hay-trao-cho-anh/">
+      <h3>Giải thưởng âm nhạc uy tín thế giới gọi Sơn Tùng là “Hoàng tử nhạc Pop” – dành lời khen đến “Hãy trao cho anh”!</h3>
+      <p>Màn comeback của Sơn Tùng M-TP với “Hãy trao cho anh” không chỉ thu hút sự chú ý của truyền thông trong nước, mà rất nhiều trang tin nước ngoài cũng đã lên bài về sự kiện này, bao gồm báo Brazil, Hàn Quốc và Mỹ. Mới đây, trang chính thức của World Music Awards cũng đã có bài viết về Sơn Tùng, gọi anh là “Hoàng tử nhạc Pop của Việt Nam”...</p>
+    </a>
+  </div>
+<div class="item">
+    <a href="https://mtpentertainment.com/sky-tour-movie-mang-ve-doanh-thu-11-5-ty-dong-sau-10-ngay-cong-chieu/">
+          <img src="Img/Danh thu SKY TOUR.jpg" width="100px" height="120px">
+    </a> 
+    <a href="https://mtpentertainment.com/sky-tour-movie-mang-ve-doanh-thu-11-5-ty-dong-sau-10-ngay-cong-chieu/">
+      <h3>SKY TOUR MOVIE MANG VỀ DOANH THU 11.5 TỶ ĐỒNG SAU 10 NGÀY CÔNG CHIẾU</h3>
+      <p>Vậy là sau 10 ngày công chiếu phim tài liệu điện ảnh SKY TOUR đã thu về con số 11,5 tỷđồng. <br>
+        Sau 10 ngày công chiếu, phim tài liệu điện ảnh SKY TOUR của nghệ sĩ Sơn Tùng M-TP chính thức rời khỏi rạp với con số doanh thu là 11,5 tỷ đồng...</p>
+    </a>
+  </div>
+</div>
+
+<div class="row2">
+  <a href="https://mtpentertainment.com/12-tieng-sau-khi-hay-trao-cho-anh-can-quet-1-viet-nam-1-chau-a-1-the-gioi-va-nhieu-hon-the-nua/"> <h2>HÃY TRAO CHO ANH "CÀN QUÉT"</h2> </a>
+  <div class="stars">
+      <a href="https://mtpentertainment.com/12-tieng-sau-khi-hay-trao-cho-anh-can-quet-1-viet-nam-1-chau-a-1-the-gioi-va-nhieu-hon-the-nua/">
+        <img src="Img/Hãy trao cho anh.jpg" width="500px" height="700px"">
+      </a>
+</div>
+
+</div>
+ 
+
+  <script>
+    let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+}
+  </script>
+</div>
+
+<div>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.299450764142!2d106.69432627999943!3d10.788361561929495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f355ad805e9%3A0x2c9d679744d9e54b!2zNjAsIE5ndXnhu4VuIMSQw6xuaCBDaGnhu4N1LCDEkGEgS2FvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1698227807555!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="box">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <h4>VỀ CHÚNG TÔI</h4>
+        <ul class="quick-menu">
+            <div class="item">
+                <a href="">Giới thiệu</a>
+            </div>
+            <div class="item">
+                <a href="">Dịch Vụ</a>
+            </div>
+            <div class="item">
+                <a href="">Liên hệ</a>
+            </div>
+            <div class="item">
+                <a href="">Chính sách bảo mật</a>
+            </div>
+        </ul>
+    </div>
+    <div class="box">
+        <h4>KHÁC</h4>
+        <ul class="quick-menu">
+            <div class="item">
+                <a href="">Tuyển dụng</a>
+            </div>
+            <div class="item">
+                <a href="">Hướng dẫn thanh toán</a>
+            </div>
+            <div class="item">
+                <a href="">Chăm sóc khách hàng</a>
+            </div>
+            <div class="item">
+                <a href="">Đăng kí đối tác</a>
+            </div>
+        </ul>
+    </div>
+    <div class="box">
+        <h4>CONTACT</h4>
+        <ul class="quick-menu">
+            <div class="item">
+                <a href=""><i class="fas fa-home me-3">Tầng 2, Tòa nhà ROSANA, Số 60 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</a>
+            </div>
+            <div class="item">
+                <a href=""><i class="fas fa-envelope me-3">tinndpd09005@fpt.edu.vn</i></a>
+            </div>
+            <div class="item">
+                <a href=""><i class="fas fa-phone me-3">0359904848</i></a>
+            </div>
+            <div class="item">
+                <a href=""><i class="fas fa-print me-3">+ (84) 779945678</i></a>
+            </div>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
